@@ -1,4 +1,5 @@
 // For the type writer animation
+// Home Page
 var type = new Typed(".countryCode", {
     strings: ["+254"],
     typeSpeed: 150,

@@ -11,13 +11,12 @@
 }
 
 body{
-    height: 100vh;
     width: 100%;
-    background-image: url("../Assets/Images/Nairobi.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+}
+
+.titleSpan{
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    color: #f9004d;
 }
 
 /* Navigation */
@@ -40,4 +39,31 @@ body{
     text-decoration: underline;
     color: #f9004d;
     transition: all 0.5s ease-in-out;
+}
+
+/* About Header */
+.title{
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.name, .nameType{
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    color: #f9004d;
+}
+
+.aboutImage{
+    border: none;
+    border-radius: 20%;
+    padding: 20px;
+}
+
+/* Academics */
+#academics{
+    padding: 20px 0px;
 }
