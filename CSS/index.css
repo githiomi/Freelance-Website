@@ -23,7 +23,7 @@ body{
 /* Navigation */
 #navigation{
     padding: 10px 0;
-    background-color: grey;
+    border-bottom: 1px solid #f9004d;
 }
 
 .navMenu ul li{
@@ -40,6 +40,10 @@ body{
     text-decoration: underline;
     color: #f9004d;
     transition: all 0.5s ease-in-out;
+}
+
+.navMenu ul li a.active{
+    color: #f9004d;
 }
 
 /* Mid Section */

@@ -9,7 +9,7 @@ var typeAnim = new Typed(".nameType", {
 // Reveal Animation
 const scrollReveal = ScrollReveal({
     distance: '50px',
-    duration: 2000,
+    duration: 2500,
     delay: 200,
     reset: true
 });
