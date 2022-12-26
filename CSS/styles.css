@@ -149,5 +149,57 @@ body{
 #migrationVideo{
     width: 70%;
     border-radius: 15px;
-    box-shadow: 1px 1px 5px #f9004d;
+    box-shadow: 2px 2px 10px black;
+}
+
+/* -------Contact */
+#contact{
+    padding: 30px 0;
+}
+
+.contact-item{
+    cursor: pointer;
+}
+
+.contact-item{
+    margin: 5px;
+    background-color: transparent;
+}
+
+.contact-item:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+.contact-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.contactTitle{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    letter-spacing: 1.05px;
+}
+
+.footer{
+    padding: 15px 0;
+    background-color: white;
+    border-top: 1px solid black;
+    border-radius: 15px 15px 0 0;
+}
+
+.myLinks .fa{
+    font-size: 25px;
+    color: black;
+    margin: 5px 15px;
+    --fa-beat-fade-opacity: 0.7; 
+    --fa-beat-fade-scale: 1.05;
+    --fa-animation-duration: 2s;
+}
+
+.myLinks .fa:hover{
+    color: #f9004d;
+    transition: all 0.5s ease-in-out;
 }

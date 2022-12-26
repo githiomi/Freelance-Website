@@ -15,3 +15,4 @@ const scrollReveal = ScrollReveal({
 });
 
 scrollReveal.reveal('#faithImg', {origin:'right'});
+scrollReveal.reveal('#contactImg', {origin:'left'});
