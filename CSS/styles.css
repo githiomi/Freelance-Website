@@ -1,0 +1,43 @@
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Assets/Images/Nairobi.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Navigation */
+#navigation{
+    padding: 10px 0;
+    background-color: grey;
+}
+
+.navMenu ul li{
+    margin: 0px 15px;
+}
+
+.navMenu ul li a{
+    color: grey;
+    text-decoration: none;
+}
+
+.navMenu ul li a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    color: #f9004d;
+    transition: all 0.5s ease-in-out;
+}
