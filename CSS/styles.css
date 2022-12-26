@@ -45,7 +45,7 @@ body{
     border-radius: 0px 0px 15px 15px;
 }
 
-.title{
+.sectionHeader{
     font-family: 'Love Ya Like A Sister', sans-serif;
     font-size: 60px;
     text-transform: uppercase;
@@ -81,4 +81,18 @@ body{
     font-family: 'Love Ya Like A Sister', sans-serif;
     border-bottom: 1px solid grey;
     font-size: 40px;
+}
+
+/* -------Background */
+#nairobi{
+    padding: 30px 0;
+}
+
+.backgroundText{
+    padding: 0 100px;
+}
+
+.tribeList{
+    padding: 0px 120px;
+    margin: 0;
 }
