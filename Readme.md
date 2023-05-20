@@ -36,11 +36,11 @@ No bugs to report at the moment! the system works efficiently at 100% guaranteed
 
 ## Link to live page
 
-[Click-Here](https://githiomi.github.io/Faith-Website)
+[Click-Here](https://githiomi.github.io/Freelance-Website)
 
 ## Setup Instructions
 
-* Git clone [This](https://github.com/githiomi/Faith-Website) into your terminal.  
+* Git clone [This](https://github.com/githiomi/Freelance-Website) into your terminal.  
 * Open the folder in your favourite editor, for example vscode ,is code . and for atom, atom .
 * Open the index.html in your browser.
 * Enjoy the freelance app
