@@ -1,7 +1,7 @@
 /* Poppins font */
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,16 +9,16 @@
     text-decoration: none;
 }
 
-body{
+body {
     width: 100%;
 }
 
-.titleSpan{
+.titleSpan {
     font-family: 'Love Ya Like A Sister', sans-serif;
     color: #f9004d;
 }
 
-.subSectionTitle{
+.subSectionTitle {
     text-transform: uppercase;
     font-family: 'Love Ya Like A Sister', sans-serif;
     border-bottom: 1px solid grey;
@@ -26,45 +26,46 @@ body{
 }
 
 /* Navigation */
-#navigation{
+#navigation {
     padding: 10px 0;
     border-bottom: 1px solid #f9004d;
 }
 
-.navMenu ul li{
+.navMenu ul li {
     margin: 0px 15px;
 }
 
-.navMenu ul li a{
+.navMenu ul li a {
     color: grey;
     text-decoration: none;
 }
 
-.navMenu ul li a:hover{
+.navMenu ul li a:hover {
     transform: scale(1.1);
     text-decoration: underline;
     color: #f9004d;
     transition: all 0.5s ease-in-out;
 }
 
-.navMenu ul li a.active{
+.navMenu ul li a.active {
     color: #f9004d;
 }
 
 /* About Header */
-#aboutHeader{
+#aboutHeader {
     padding: 30px 0;
     border-radius: 0px 0px 15px 15px;
 }
 
-.sectionHeader{
+.sectionHeader {
     font-family: 'Love Ya Like A Sister', sans-serif;
     font-size: 60px;
     text-transform: uppercase;
     text-align: center;
 }
 
-.name, .nameType{
+.name,
+.nameType {
     font-family: 'Love Ya Like A Sister', sans-serif;
     font-size: 60px;
     text-transform: uppercase;
@@ -72,19 +73,19 @@ body{
     color: #f9004d;
 }
 
-.aboutImage{
+.aboutImage {
     cursor: pointer;
     border: none;
     border-radius: 10%;
     padding: 20px;
 }
 
-.aboutImage:hover{
+.aboutImage:hover {
     transform: scale(1.02);
     transition: all 0.5s ease-in-out;
 }
 
-iframe{
+iframe {
     width: 100%;
     height: 500px;
     margin: 1rem auto;
@@ -93,35 +94,35 @@ iframe{
 }
 
 /* Academics */
-#academics{
+#academics {
     padding: 20px 0px;
     border-radius: 20px;
 }
 
-.schoolSection{
+.schoolSection {
     padding: 50px 0;
 }
 
 /* -------Background */
-#nairobi{
+#nairobi {
     padding: 30px 0;
 }
 
-.backgroundText{
+.backgroundText {
     padding: 0 100px;
 }
 
-.tribeList{
+.tribeList {
     padding: 0px 120px;
     margin: 0;
 }
 
 /* --------Traditions */
-#traditions{
+#traditions {
     padding: 30px 0;
 }
 
-.tribe{
+.tribe {
     cursor: pointer;
     padding: 30px;
     margin: 30px 20px;
@@ -130,7 +131,7 @@ iframe{
     box-shadow: 1px 1px 3px #f9004d;
 }
 
-.tribe:hover{
+.tribe:hover {
     transform: scale(1.03);
     box-shadow: 3px 3px 10px #f9004d;
     transition: all 0.5s ease-in-out;
@@ -140,16 +141,16 @@ iframe{
     padding: 3rem 0;
 }
 
-.destinations > h3 {
+.destinations>h3 {
     margin: 1rem 0;
 }
 
 /* -------- Tourism */
-#tourism{
+#tourism {
     padding: 30px 0;
 }
 
-.attraction{
+.attraction {
     padding: 30px;
 }
 
@@ -158,80 +159,138 @@ iframe{
     margin: 2rem auto 0;
 }
 
-th{
+th {
     background-color: #999;
     border: 2px solid #111;
     padding: .5rem;
 }
 
-td{
+td {
     border: .5px solid #111;
     padding: .5rem;
 }
 
-.tourismImg{
+.tourismImg {
     width: 100%;
     height: 100%;
 }
 
-.migration{
+.migration {
     padding: 3rem;
 }
 
-#migrationVideo{
+#migrationVideo {
     width: 70%;
     border-radius: 15px;
     box-shadow: 2px 2px 10px black;
 }
 
 /* -------Contact */
-#contact{
+#contact {
     padding: 30px 0;
 }
 
-.contact-item{
+.contact-item {
     cursor: pointer;
 }
 
-.contact-item{
+.contact-item {
     margin: 5px;
     background-color: transparent;
 }
 
-.contact-item:hover{
+.contact-item:hover {
     transform: scale(1.05);
     transition: all 0.5s ease-in-out;
 }
 
-.contact-item a{
+.contact-item a {
     color: white;
     text-decoration: none;
 }
 
-.contactTitle{
+.contactTitle {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Love Ya Like A Sister', sans-serif;
     letter-spacing: 1.05px;
 }
 
-.footer{
+form {
+    width: 60%;
+    margin: 2rem auto 5rem;
+}
+
+label {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.names,
+.formGroup {
+    width: 80%;
+    margin: .5rem auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.names {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input,
+textarea {
+    padding: .8rem;
+    border: none;
+    font-size: .8rem;
+    border-bottom: 1px solid #111;
+    outline: none;
+}
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover {
+    outline: none;
+    border-bottom: 1px solid #f9004d;
+    box-shadow: .3px .3px .2rem #f9004d;
+    border-radius: .5rem;
+    transition: all .5s ease-in-out;
+}
+
+textarea {
+    height: 150px;
+}
+
+.footer {
     padding: 15px 0;
     background-color: white;
     border-top: 1px solid black;
     border-radius: 15px 15px 0 0;
 }
 
-.myLinks .fa{
+.myLinks .fa {
     font-size: 30px;
     color: black;
     margin: 5px 15px;
-    --fa-beat-fade-opacity: 0.7; 
+    --fa-beat-fade-opacity: 0.7;
     --fa-beat-fade-scale: 1.05;
     --fa-animation-duration: 2s;
 }
 
-.myLinks .fa:hover{
+.myLinks .fa:hover {
     color: #f9004d;
     transition: all 0.5s ease-in-out;
+}
+
+/* Media Queries */
+@media all and (max-width: 700px) {
+
+    .names {
+        width: 100%;
+        flex-direction: column;
+    }
+
 }
